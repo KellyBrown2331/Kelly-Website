@@ -24,3 +24,7 @@ h3 {
   color: #0e9e05;
   font-size: 18px;
 }
+
+h1, h2, h3 {
+  font-weight: normal;
+}
