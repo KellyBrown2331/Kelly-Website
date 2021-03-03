@@ -10,7 +10,12 @@ body {
   color: #6a336e;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-    margin: 50px;
+}
+
+header,
+div,
+footer {
+  padding: 30px;
 }
 
 p {
