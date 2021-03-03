@@ -34,18 +34,27 @@ p {
   line-height: 2;
 }
 
-.btn {
-  border: 2px #da307b;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
 }
 
-.btn:hover {background: #eee;}
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
 
-.artsandcrafts {color: purple;}
-.sensoryplay {color: dodgerblue;}
-.science {color: orange;}
-.recipes {color: red;}
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
