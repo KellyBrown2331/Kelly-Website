@@ -37,6 +37,7 @@ p {
 .btn-group button {
   background-color: #da307b; /* Pink background */
   border: 1px solid White; /* White border */
+  border-radius:8px;
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
