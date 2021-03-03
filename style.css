@@ -30,6 +30,8 @@ img {
 
 p {
   margin: 15px 0;
+  display: -webkit-flex;
+  display: flex;
 }
 
 ul, ol {
