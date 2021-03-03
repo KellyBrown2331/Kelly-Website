@@ -84,3 +84,8 @@ p {
 .btn-group button:hover {
   background-color: #0e9e05;
 }
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
