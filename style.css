@@ -43,7 +43,11 @@ p {
   cursor: pointer;
 }
 
-.SensoryPlay {
+.sensoryplay {
   border-color: #4CAF50;
   color: green;
+}
+.sensoryplay:hover {
+  background-color: #4CAF50;
+  color: white;
 }
