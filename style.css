@@ -17,6 +17,8 @@ header,
 div,
 footer {
   padding: 30px;
+  display: -webkit-flex;
+  display: flex;
 }
 
 img {
