@@ -51,3 +51,29 @@ p {
   background-color: #4CAF50;
   color: white;
 }
+
+.artsandcrafts {
+  border-color: #4CAF50;
+  color: green;
+}
+.artsandcrafts :hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.science {
+    border-color: #4CAF50;
+    color: green;
+  }
+.science :hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.recipes {
+  border-color: #4CAF50;
+  color: green;
+}
+.recipes :hover {
+  background-color: #4CAF50;
+  color: white;
