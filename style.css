@@ -43,37 +43,9 @@ p {
   cursor: pointer;
 }
 
-.sensoryplay {
-  border-color: #4CAF50;
-  color: green;
-}
-.sensoryplay:hover {
-  background-color: #4CAF50;
-  color: white;
-}
+.btn:hover {background: #eee;}
 
-.artsandcrafts {
-  border-color: #4CAF50;
-  color: green;
-}
-.artsandcrafts:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.science {
-    border-color: #4CAF50;
-    color: green;
-  }
-.science:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.recipes {
-  border-color: #4CAF50;
-  color: green;
-}
-.recipes:hover {
-  background-color: #4CAF50;
-  color: white;
+.artsandcrafts{color: green;}
+.sensoryplay {color: dodgerblue;}
+.science {color: orange;}
+.recipes {color: red;}
