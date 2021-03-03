@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  color: #da307b;
+  color: #da307b; /*pink*/
   font-size: 36px;
   font-weight: bold;
   text-align: center;
@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-  color: #0e9e05;
+  color: #0e9e05; /*green*/
   font-size: 18px;
 }
 
@@ -37,7 +37,7 @@ p {
 .btn-group button {
   background-color: #da307b; /* Pink background */
   border: 1px solid White; /* White border */
-  border-radius: 8px;
+  border-radius: 8px; /*round buttons*/
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
