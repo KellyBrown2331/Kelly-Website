@@ -64,33 +64,6 @@ h1, h2, h3 {
   text-align: center;
 }
 
-.btn-group button {
-  background-color: #da307b; /* Pink background */
-  border: 1px solid White; /* White border */
-  border-radius: 8px; /*round buttons*/
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-  float: left; /* Float the buttons side by side */
-  width: 100;
-}
-
-.btn-group button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
-}
-
-/* Clear floats (clearfix hack) */
-.btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Add a background color on hover */
-.btn-group button:hover {
-  background-color: #0e9e05;
-}
-
 .title {
   font-size: 60px;
   /* text-decoration: underline; */
