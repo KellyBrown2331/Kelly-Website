@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
   <title>Fun Activities for Toddlers</title>
   <meta charaset="utf-8">
   <link rel="stylesheet"
         href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+{font-size: 100%;
+margin: 0;
+line-height: 1;
+box-sizing: border-box;
+border: 1px solid red;
+box-sizing: border-box;
+}
+* { box-sizing: border-box}
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  </style>
 </head>
 
 <body>
@@ -14,10 +36,16 @@
     <h1 class="title">Fun activities to do with your toddler at home</h1>
   </header>
 
-<div>
-  <img src="images/sensorytable.jpg" alt="Sensory Table"/>
-  <img src="images/playdough1.jpg" alt="Playdough"/>
-  <img src="images/childpainting.jpg" alt="Child painting"/>
+<div class="clearfix">
+  <div class="image-container">
+    <img src="images/sensorytable.jpg" alt="Sensory Table" style="width: 100%">
+    </div>
+    <div class="img-container">
+    <img src="images/playdough1.jpg" alt="Playdough" style="width: 100%">
+    </div>
+    <div class="image-container">
+    <img src="images/childpainting.jpg" alt="Child painting" style=width: 100%>
+  </div>
 </div>
 
 <div>
