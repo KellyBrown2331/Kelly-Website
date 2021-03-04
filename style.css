@@ -17,8 +17,8 @@ footer {
 }
 
 img {
-  margin: 30px 0;
-  height: 300px;
+  margin: auto;
+  height: 100%;
   width: 33.33%;
   display: -webkit-flex;
   display: flex;
