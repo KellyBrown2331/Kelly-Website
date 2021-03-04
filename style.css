@@ -68,6 +68,7 @@ h1, h2, h3 {
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
+  width: 25%;
 }
 
 .btn-group button:not(:last-child) {
