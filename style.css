@@ -86,6 +86,7 @@ h1, h2, h3 {
 }
 
 .title {
-  font-size: 48px;
-  text-decoration: underline;
+  font-size: 60px;
+  /* text-decoration: underline; */
+  text-align: center;
 }
