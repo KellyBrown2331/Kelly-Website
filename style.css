@@ -4,6 +4,7 @@ body {
   color: #6a336e;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  text-align: center;
 }
 
 header,
@@ -27,6 +28,8 @@ p {
   margin: 15px 0;
   display: -webkit-flex;
   display: flex;
+  text-align: center;
+  line-height: 2;
 }
 
 ul, ol {
@@ -54,10 +57,6 @@ h3 {
 h1, h2, h3 {
   font-weight: normal;
   margin-bottom: 20px;
-}
-
-p {
-  line-height: 2;
 }
 
 .btn-group button {
