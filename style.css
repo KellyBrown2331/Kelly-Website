@@ -1,14 +1,23 @@
 /*Fun Activities for Toddlers*/
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
 body {
-  background-color: #cddad8;
-  color: #6a336e;
+  background-color: #c2c9e6;
+  color: #39235c; /*dark purple*/
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  margin: 0px
 }
 
 /* Style the header */
 .header {
-  background-color: #57e874;
+  background-color: #66bee8;
   padding: 20px;
   text-align: center;
 }
@@ -16,14 +25,14 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #3b4444;
+  background-color: #a656db;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #e7deec;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -35,38 +44,39 @@ body {
   color: black;
 }
 
-ul, ol {
-  margin: 15px 0;
-}
-
 h1 {
-  color: #da307b; /*pink*/
+  color: #2f333a;
   font-size: 36px;
-  font-weight: bold;
-  margin: 30px 0;
+  font-weight: normal;
+  margin: 30px 50px;
   text-align: center;
 }
 
 h2 {
+  color: #162851;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   text-align: left;
+  padding: 20px;
 }
 
 h3 {
-  color: #0e9e05; /*green*/
+  color: #162851;
   font-size: 18px;
-  Text-align: center;
-}
-
-h1, h2, h3 {
-  font-weight: normal;
-  margin-bottom: 20px;
-
+  font-weight: bold;
+  padding: 20px;
 }
 
 .title {
-  font-size: 60px;
+  font-size: 48px;
   /* text-decoration: underline; */
+  text-align: center;
+}
+
+img {
+  padding:20px;
+}
+
+.center {
   text-align: center;
 }
